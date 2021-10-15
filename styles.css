@@ -1,0 +1,72 @@
+body 
+{
+background-color: azure;
+
+}
+
+header
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+img {
+    margin-left: 100px;
+}
+
+ul{
+        width: 60%;
+        
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+    
+}
+
+.welcome {
+    
+    margin: 0 auto;
+    text-align: center;
+    height: 250px;
+    
+}
+
+h1{
+    display: block;
+    margin: 100px auto;
+    font-size: 6rem;
+}
+
+.history {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+h2 {
+margin: 0 auto;
+font-size: 3rem;
+}
+
+p{
+    text-align: justify;
+}
+
+.container-heros {
+    display:flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.heros-title {
+    margin-left: 150px;
+}
