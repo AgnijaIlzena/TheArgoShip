@@ -32,21 +32,28 @@ a{
     
 }
 
-.welcome {
-    
-    margin: 0 auto;
-    text-align: center;
-    height: 250px;
+#welcome {
+    display:flex;
+    margin: 50px 100px;
+  
+    height: 400px;
+    background-image: url(src/water-green.jpg);
+    background-size: cover;
+   
     
 }
 
 h1{
-    display: block;
-    margin: 100px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     font-size: 6rem;
+      margin-left: auto;
+    margin-right: auto;
+   
 }
 
-.history {
+#history {
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 100px;
@@ -61,7 +68,7 @@ p{
     text-align: justify;
 }
 
-.container-heros {
+.flex-container {
     display:flex;
     margin-left: 100px;
     margin-right: 100px;
