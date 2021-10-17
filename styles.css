@@ -1,5 +1,10 @@
 body {
-  background-color: azure;
+  background-color: #E3FDFD;
+ }
+
+* {
+color: #071E3D;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* HEADER */
@@ -24,8 +29,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
-  font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 /* sections WELCOME & HISTORY*/
@@ -42,7 +46,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 6rem;
+  font-size: 5rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -84,6 +88,11 @@ p {
   width: 200px;
 }
 
+.heroName  {
+  font-size: x-large;
+  color: #FF4646;
+}
+
 .hero img {
   width: 200px;
   margin-left: auto;
@@ -119,7 +128,7 @@ font-weight: 18px;
   th
   {
       height: 60px;
-      background-color: rgb(41, 228, 215);
+      background-color: #A6E3E9;
   }
 
   td
@@ -128,7 +137,7 @@ font-weight: 18px;
   }
   
   tr:hover
-  {background-color: lightgrey;}
+  {background-color: #CBF1F5;}
 
  /* section CONTACT*/
 
@@ -154,6 +163,9 @@ form {
    
  }
 
+ ::placeholder{
+   color: #71C9CE;
+ }
  .button {
    margin-top: 20px;
    border: none;
@@ -162,4 +174,5 @@ form {
   float: right;
   padding: 12px 20px;
   width: 100px;
+  background-color: #71C9CE;
  }
