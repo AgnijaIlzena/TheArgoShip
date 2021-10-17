@@ -1,79 +1,133 @@
-body 
-{
-background-color: azure;
-
+body {
+  background-color: azure;
 }
 
-header
-{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    
+/* HEADER */
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 img {
-    margin-left: 100px;
+  margin-left: 100px;
 }
 
-ul{
-        width: 60%;
-        
-        list-style-type: none;
-        display: flex;
-        justify-content: space-between;
-        margin-right: 100px;
+ul {
+  width: 60%;
+
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-    font-size: 2.5rem;
-    
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 2.5rem;
 }
 
+/* sections WELCOME & HISTORY*/
 #welcome {
-    display:flex;
-    margin: 50px 100px;
-  
-    height: 400px;
-    background-image: url(src/water-green.jpg);
-    background-size: cover;
-   
-    
+  display: flex;
+  margin: 50px 100px;
+
+  height: 400px;
+  background-image: url(src/water-green.jpg);
+  background-size: cover;
 }
 
-h1{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 6rem;
-      margin-left: auto;
-    margin-right: auto;
-   
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #history {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
 }
 
 h2 {
-margin: 0 auto;
-font-size: 3rem;
+  margin: 0 auto;
+  font-size: 3rem;
 }
 
-p{
-    text-align: justify;
+p {
+  text-align: justify;
 }
 
+/* section HEROES*/
+
+#heroes {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 .flex-container {
-    display:flex;
-    margin-left: 100px;
-    margin-right: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
 }
 
 .heros-title {
-    margin-left: 150px;
+  margin-left: 100px;
 }
+
+.hero p {
+  text-align: center;
+  width: 200px;
+}
+
+.hero img {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* section INVENTORY*/
+
+#inventory {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+.ship-inventory {
+    margin-left: 100px;
+  }
+
+  table, td , th {
+border: 1px solid darkgrey;
+text-align: center;
+font-size: 1.5rem;
+  }
+
+ 
+  table {
+width: 100%;
+border-collapse:collapse;
+margin-top: 50px;
+font-weight: 18px;
+
+  }
+
+  th
+  {
+      height: 60px;
+      background-color: rgb(41, 228, 215);
+  }
+
+  td
+  {
+      height: 40px;
+  }
+  
+  tr:hover
+  {background-color: lightgrey;}
+
+ 
